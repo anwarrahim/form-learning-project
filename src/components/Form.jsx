@@ -64,6 +64,7 @@ function signUp(formData){
                     What is your Favorit Color
                 </lengend>
                 <select name="selectColor" id="color-selection">
+                    <option value="">Choose the Color</option>
                     <option value="blue">
                     Blue
                     </option>
