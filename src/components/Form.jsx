@@ -1,5 +1,9 @@
 export default function Form(){
 
+    
+
+
+
     return(
         <section>
 
@@ -13,9 +17,18 @@ export default function Form(){
                 <textarea id="description" placeholder="I am Frontend Engineer..." name="description"></textarea>
             <fieldset>
                 <legend>Employment status:</legend>
-                <label htmlFor="unemployed">
-                <input type="radio" id="unemployed" />   
-                Unemployed</label>
+                <label>
+                <input type="radio" id="unemployed" name="employment-status"/>   
+                Unemployed
+                </label>
+                <label >
+                   <input type="radio" name="employment-status" />
+                   Part-Time
+                </label>
+                <label >
+                    <input type="radio" name="employment-status" />
+                    Full-Time
+                </label>
 
             </fieldset>
 
