@@ -11,7 +11,16 @@ export default function Form(){
                 <input id="password" type="password" placeholder="Er*****7@" name="password" />
                 <label htmlFor="description"> Description:</label>
                 <textarea id="description" placeholder="I am Frontend Engineer..." name="description"></textarea>
+            <fieldset>
+                <legend>Employment status:</legend>
+                <label htmlFor="unemployed">
+                <input type="radio" id="unemployed" />   
+                Unemployed</label>
+
+            </fieldset>
+
             </form>
+            
             
         </section>
     )
