@@ -52,7 +52,6 @@ function signUp(formData){
                     Vegan
                 </label>
                 <label >
-                    
                     <input type="checkbox" name="daitary-restriction" value="Glutin Free"/>
                     Glutin Free
                 </label>
