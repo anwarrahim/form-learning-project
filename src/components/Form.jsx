@@ -10,6 +10,7 @@ function signUp(formData){
     const descriptionJob = formData.get("description")
     const employmentStatus = formData.get("employment-status")
     const daitaryRestriction = formData.getAll("daitary-restriction")
+    const 
     console.log(daitaryRestriction)
 
 }
@@ -56,7 +57,20 @@ function signUp(formData){
                     <input type="checkbox" name="daitary-restriction" value="Glutin Free"/>
                     Glutin Free
                 </label>
-                
+
+            </fieldset>
+            <fieldset>
+                <lengend>
+                    What is your Favorit Color
+                </lengend>
+                <select name="selectColor" id="color-selection">
+                    <option value="blue">
+                    Blue
+                    </option>
+                    <option value="green">Green</option>
+                    <option value="white">White</option>
+
+                </select>
             </fieldset>
 
             <button>Submit</button>
