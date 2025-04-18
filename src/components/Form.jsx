@@ -9,7 +9,8 @@ function signUp(formData){
     const password = formData.get("password")
     const descriptionJob = formData.get("description")
     const employmentStatus = formData.get("employment-status")
-    console.log(employmentStatus)
+    const daitaryRestriction = formData.getAll("daitary-restriction")
+    console.log(daitaryRestriction)
 
 }
 
@@ -36,8 +37,23 @@ function signUp(formData){
                    Part-Time
                 </label>
                 <label >
-                    <input type="radio" name="employment-status" value="Full-Time" />
+                    <input type="radio" name="employment-status" value="Full-Time" defaultChecked={true} />
                     Full-Time
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Daitary Restriction</legend>
+                <label >
+                    <input type="checkbox" name="daitary-restriction" value="Kosher" />
+                    Kosher
+                </label>
+                <label >
+                    <input defaultChecked={true} type="checkbox" name="daitary-restriction" value="Vegan" />
+                    Vegan
+                </label>
+                <label >
+                    <input type="checkbox" name="daitary-restriction" value="Glutin Free"/>
+                    Glutin Free
                 </label>
             </fieldset>
 
