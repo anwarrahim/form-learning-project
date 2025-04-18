@@ -10,8 +10,8 @@ function signUp(formData){
     const descriptionJob = formData.get("description")
     const employmentStatus = formData.get("employment-status")
     const daitaryRestriction = formData.getAll("daitary-restriction")
-    const 
-    console.log(daitaryRestriction)
+    const favColor = formData.get("selectColor")
+    console.log(favColor)
 
 }
 
