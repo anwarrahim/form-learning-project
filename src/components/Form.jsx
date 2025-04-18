@@ -46,7 +46,7 @@ function signUp(formData){
                 <label >
                     <input type="checkbox" name="daitary-restriction" value="Kosher" />
                     Kosher
-                    
+
                 </label>
                 <label >
                     <input defaultChecked={true} type="checkbox" name="daitary-restriction" value="Vegan" />
@@ -56,6 +56,7 @@ function signUp(formData){
                     <input type="checkbox" name="daitary-restriction" value="Glutin Free"/>
                     Glutin Free
                 </label>
+                
             </fieldset>
 
             <button>Submit</button>
