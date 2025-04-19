@@ -4,14 +4,23 @@ export default function Form(){
 
 
 function signUp(formData){
-    
-    const email = formData.get("email")
-    const password = formData.get("password")
-    const descriptionJob = formData.get("description")
-    const employmentStatus = formData.get("employment-status")
+
+    const data = Object.fromEntries(formData)
     const daitaryRestriction = formData.getAll("daitary-restriction")
-    const favColor = formData.get("selectColor")
-    console.log(favColor)
+    const allData = {
+        ...data,
+        daitaryRestriction
+
+    }
+        console.log(allData)
+    
+    // const email = formData.get("email")
+    // const password = formData.get("password")
+    // const descriptionJob = formData.get("description")
+    // const employmentStatus = formData.get("employment-status")
+    // const daitaryRestriction = formData.getAll("daitary-restriction")
+    // const favColor = formData.get("selectColor")
+    // console.log(favColor)
 
 }
 
