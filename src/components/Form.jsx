@@ -22,6 +22,7 @@ function signUp(formData){
     // const favColor = formData.get("selectColor")
     // console.log(favColor)
 
+    
 }
 
 
