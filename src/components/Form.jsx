@@ -21,6 +21,7 @@ function signUp(formData){
     // const daitaryRestriction = formData.getAll("daitary-restriction")
     // const favColor = formData.get("selectColor")
     // console.log(favColor)
+
     
 }
 
